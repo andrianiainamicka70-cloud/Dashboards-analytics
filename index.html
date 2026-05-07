@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+
+  <aside class="sidebar">
+    <div class="logo">Orbit.</div>
+
+    <ul class="menu">
+      <li class="active">Dashboard</li>
+      <li>Analytics</li>
+      <li>Messages</li>
+      <li>Revenue</li>
+      <li>Settings</li>
+    </ul>
+  </aside>
+
+  <!-- MAIN -->
+
+  <main class="main-content">
+
+    <!-- TOPBAR -->
+
+    <header class="topbar">
+      <h1>Analytics Dashboard</h1>
+
+      <div class="profile">
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop" alt="profile">
+      </div>
+    </header>
+
+    <!-- STATS -->
+
+    <section class="stats-grid">
+
+      <div class="card">
+        <h3>Total Users</h3>
+        <h2>24,530</h2>
+        <span>+12% this month</span>
+      </div>
+
+      <div class="card">
+        <h3>Revenue</h3>
+        <h2>$18,200</h2>
+        <span>+8% this month</span>
+      </div>
+
+      <div class="card">
+        <h3>Sales</h3>
+        <h2>1,240</h2>
+        <span>+5% this week</span>
+      </div>
+
+      <div class="card">
+        <h3>Visitors</h3>
+        <h2>98K</h2>
+        <span>+20% today</span>
+      </div>
+
+    </section>
+
+    <!-- CHARTS -->
+
+    <section class="charts-section">
+
+      <div class="chart-card large">
+        <div class="chart-header">
+          <h2>Revenue Overview</h2>
+        </div>
+
+        <div class="fake-chart">
+          <div class="bar" style="height: 60%"></div>
+          <div class="bar" style="height: 80%"></div>
+          <div class="bar" style="height: 45%"></div>
+          <div class="bar" style="height: 95%"></div>
+          <div class="bar" style="height: 70%"></div>
+          <div class="bar" style="height: 55%"></div>
+          <div class="bar" style="height: 90%"></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-header">
+          <h2>Traffic</h2>
+        </div>
+
+        <div class="circle-chart">
+          <div class="circle">
+            <span>75%</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- TABLE -->
+
+    <section class="table-section">
+
+      <div class="table-card">
+        <div class="table-header">
+          <h2>Recent Transactions</h2>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Date</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>John Carter</td>
+              <td>May 7, 2026</td>
+              <td>$320</td>
+              <td><span class="success">Completed</span></td>
+            </tr>
+
+            <tr>
+              <td>Sarah Lee</td>
+              <td>May 6, 2026</td>
+              <td>$120</td>
+              <td><span class="pending">Pending</span></td>
+            </tr>
+
+            <tr>
+              <td>Mike Smith</td>
+              <td>May 5, 2026</td>
+              <td>$890</td>
+              <td><span class="success">Completed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
